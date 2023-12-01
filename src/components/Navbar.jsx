@@ -8,12 +8,12 @@ import bgImg from '../public/logo.png'
 export default function Navbar() {
   return (
     <nav>  
-        <div className='logo'>
+        {/* <div className='logo'>
             <Image src={bgImg} width={50} height={50} alt='logo'/>
-        </div>
-        <Link href="/">หน้าแรก</Link> 
+        </div> */}
+        <Link href="/"><h1>ระบบจัดการต้นไม้ RMUTL NAN</h1></Link> 
         
-       
+      
     </nav>
   )
 }
